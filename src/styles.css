@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main-search-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.main-search-box {
+  height: 2rem;
+  width: 100%;
+  justify-self: stretch;
+  border-color: lightgrey;
+  border-radius: 0.8rem;
+  font: sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.suggestion-list {
+  position: relative;
+  top: -1rem;
+  list-style: none;
+  width: fit-content;
+  text-align: start;
+  margin-left: 2.4rem;
+  padding: 0.1rem;
+}
+
+.suggestion-item {
+  height: 1.4rem;
+  padding: 0.3rem;
+  vertical-align: center;
+  align-items: center;
+  line-height: 1.4rem;
+  text-align: center;
+  border-radius: 0.1rem;
+  border: lightgrey 0.01rem solid;
+}
